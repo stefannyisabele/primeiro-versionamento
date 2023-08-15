@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <!--action - é pra onde os dados serão enviados quando formulario for submitido-->
+    <!--method - é como os dados serao enviados, podendo ser GET ou POST. GET sera enviado atraves da URL e POST sera enviado "por baixo dos panos" -->
+    <!-- nome - é o que o backend vai utilizar para pegar o que foi preenchido no campo,exeto nos inputs de radio e checkbox -->
+
+ <form action="redirecionamento.html"method="get">
+<div>
+    <label for="">nome:</label>
+    <input type="text" name="" id="">
+</div>
+
+<div>
+    <label for="">email:</label>
+    <input type="email" name="email" id="">
+
+</div>
+
+<div>
+    <label for=""> endereço:</label>
+    <input type="text" name="" id="">
+
+
+    
+</div>
+
+<div>
+    <label for="">data de nascimento</label>
+    <input type="date" name="" id="">
+</div>
+
+<div>
+    <label for="m">masculino</label>
+    <input type="radio" name="sexo" value="masculino" id="m">
+
+    <label for="f">feminino</label>
+    <input type="radio" name="sexo" value="feminino" id="f">
+</div>
+
+<div>
+    <p>turno de preferencia</p>
+    <select name="turno" id="">
+        <option value=""hidden>escolha sua preferencia</option>
+        <option value="matutino">matutino</option>
+        <option value="vespertino">vespertino</option>
+        <option value="noturno">noturno</option>
+    </select>
+    
+</div>
+
+<div>
+    <label for="sobrevc">fale sobre voce</label>
+    <textarea name="" id="sobrevc" cols="30" rows="10"></textarea>
+</div>
+
+<div>
+    <input type="submit" value="cadastrar">
+</div>
+ </form>   
+</body>
+</html>
